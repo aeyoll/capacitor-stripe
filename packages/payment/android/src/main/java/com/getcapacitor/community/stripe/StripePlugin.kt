@@ -206,6 +206,6 @@ class StripePlugin : Plugin() {
     }
 
     companion object {
-        private const val APP_INFO_NAME = "@capacitor-community/stripe"
+        private const val APP_INFO_NAME = "aeyoll/capacitor-stripe"
     }
 }

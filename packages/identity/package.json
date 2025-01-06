@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/stripe-identity",
+  "name": "aeyoll/capacitor-stripe-identity",
   "version": "6.4.3",
   "engines": {
     "node": ">=18.0.0"

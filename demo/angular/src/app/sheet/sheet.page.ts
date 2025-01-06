@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PaymentSheetEventsEnum, Stripe } from '@capacitor-community/stripe';
+import { PaymentSheetEventsEnum, Stripe } from 'aeyoll/capacitor-stripe';
 import { ITestItems } from '../shared/interfaces';
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';

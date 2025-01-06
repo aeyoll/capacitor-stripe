@@ -14,9 +14,9 @@ ext {
     androidxEspressoCoreVersion = '3.5.1'
     cordovaAndroidVersion = '10.1.1'
 
-    // If you use @capacitor-community/stripe:
+    // If you use aeyoll/capacitor-stripe:
     // stripeAndroidVersion = '20.39.+'
 
-    // If you use @capacitor-community/stripe-identity:
+    // If you use aeyoll/capacitor-stripe-identity:
     // identityVersion = '20.39.+'
 }

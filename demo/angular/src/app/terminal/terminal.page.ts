@@ -23,7 +23,7 @@ import {
   StripeTerminal,
   TerminalConnectTypes,
   TerminalEventsEnum,
-} from '@capacitor-community/stripe-terminal';
+} from 'aeyoll/capacitor-stripe-terminal';
 import { environment } from '../../environments/environment';
 import { firstValueFrom } from 'rxjs';
 import { ITestItems } from '../shared/interfaces';
@@ -39,7 +39,7 @@ import {cancelPathItems} from './cancelPathItems';
 import {checkDiscoverMethodItems} from './checkDiscoverMethodItems';
 import {updateDeviceRequiredItems} from './updateDeviceRequiredItems';
 import {updateDeviceUpdateItems} from './updateDeviceUpdateItems';
-import {Stripe} from '@capacitor-community/stripe';
+import {Stripe} from 'aeyoll/capacitor-stripe';
 
 @Component({
   selector: 'app-terminal',

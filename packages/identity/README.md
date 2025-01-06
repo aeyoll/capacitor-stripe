@@ -1,11 +1,11 @@
-# @capacitor-community/stripe-identity
+# aeyoll/capacitor-stripe-identity
 
 Stripe Identity SDK bindings for Capacitor Applications.
 
 ## Install
 
 ```bash
-npm install @capacitor-community/stripe-identity
+npm install aeyoll/capacitor-stripe-identity
 npx cap sync
 ```
 
@@ -31,7 +31,7 @@ see more details on Stripe's native Android SDK page [here](https://stripe.com/d
 If you want to implement, we recommend to read https://stripe.com/docs/identity .
 
 ```ts
-import { StripeIdentity } from '@capacitor-community/stripe-identity';
+import { StripeIdentity } from 'aeyoll/capacitor-stripe-identity';
 
 // initialize is needed only for Web Platform
 await StripeIdentity.initialize({

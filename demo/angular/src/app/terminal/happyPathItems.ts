@@ -4,7 +4,7 @@ import {
   ReaderDisplayMessage,
   ReaderEvent,
   TerminalEventsEnum
-} from '@capacitor-community/stripe-terminal';
+} from 'aeyoll/capacitor-stripe-terminal';
 
 export const happyPathItems: ITestItems[] = [
   {

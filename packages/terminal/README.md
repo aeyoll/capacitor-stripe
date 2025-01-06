@@ -1,4 +1,4 @@
-# @capacitor-community/stripe-terminal
+# aeyoll/capacitor-stripe-terminal
 
 Stripe SDK bindings for Capacitor Applications. __This plugin is still in the RC (release candidate) phase.__
 We have confirmed that it works well in the demo project. Please refer to https://github.com/capacitor-community/stripe/tree/main/demo/angular for the implementation.
@@ -6,7 +6,7 @@ We have confirmed that it works well in the demo project. Please refer to https:
 ## Install
 
 ```bash
-npm install @capacitor-community/stripe-terminal
+npm install aeyoll/capacitor-stripe-terminal
 npx cap sync
 ```
 
@@ -44,7 +44,7 @@ Add permissions to your `android/app/src/main/AndroidManifest.xml` file:
 + <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 ```
 
-If used in conjunction with the `@capacitor-community/stripe` plugin, the following settings may be necessary
+If used in conjunction with the `aeyoll/capacitor-stripe` plugin, the following settings may be necessary
 
 Add packagingOptions to your `android/app/build.gradle` file:
 

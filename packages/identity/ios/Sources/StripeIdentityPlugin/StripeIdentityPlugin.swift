@@ -21,7 +21,7 @@ public class StripeIdentityPlugin: CAPPlugin, CAPBridgedPlugin {
     override public func load() {
         super.load()
         self.implementation.plugin = self
-        STPAPIClient.shared.appInfo = STPAppInfo(name: "@capacitor-community/stripe-identity", partnerId: nil, version: nil, url: nil)
+        STPAPIClient.shared.appInfo = STPAppInfo(name: "aeyoll/capacitor-stripe-identity", partnerId: nil, version: nil, url: nil)
     }
 
     @objc func initialize(_ call: CAPPluginCall) {

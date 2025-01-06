@@ -7,16 +7,16 @@
 
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2024?style=flat-square" />
-  <a href="https://www.npmjs.com/package/@capacitor-community/stripe"><img src="https://img.shields.io/npm/l/@capacitor-community/stripe?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/aeyoll/capacitor-stripe"><img src="https://img.shields.io/npm/l/aeyoll/capacitor-stripe?style=flat-square" /></a>
 </p>
 
 ## packages
 
 | package name                         | description | path                                                                                                   |
 |--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
-| @capacitor-community/stripe          | Support for non-personal payments using Stripe | [/packages/payment](https://github.com/capacitor-community/stripe/tree/main/packages/payment#readme)   |
-| @capacitor-community/stripe-identity | Supports identity verification using Stripe | [/packages/identity](https://github.com/capacitor-community/stripe/tree/main/packages/identity#readme) |
-| @capacitor-community/stripe-terminal | Support for in-person payments using Stripe  | [/packages/terminal](https://github.com/capacitor-community/stripe/tree/main/packages/terminal#readme) |
+| aeyoll/capacitor-stripe          | Support for non-personal payments using Stripe | [/packages/payment](https://github.com/capacitor-community/stripe/tree/main/packages/payment#readme)   |
+| aeyoll/capacitor-stripe-identity | Supports identity verification using Stripe | [/packages/identity](https://github.com/capacitor-community/stripe/tree/main/packages/identity#readme) |
+| aeyoll/capacitor-stripe-terminal | Support for in-person payments using Stripe  | [/packages/terminal](https://github.com/capacitor-community/stripe/tree/main/packages/terminal#readme) |
 
 
 ## Hint
@@ -46,9 +46,9 @@ If you got this error message at Android Studio, you should add next block to `a
 Users of Capacitor v5 should use version v5 of the Plugin.
 
 ```bash
-% npm install @capacitor-community/stripe@5
-% npm install @capacitor-community/stripe-identity@5
-% npm install @capacitor-community/stripe-terminal@5
+% npm install aeyoll/capacitor-stripe@5
+% npm install aeyoll/capacitor-stripe-identity@5
+% npm install aeyoll/capacitor-stripe-terminal@5
 ```
 
 ### How to use Stripe Android currently package
@@ -64,7 +64,7 @@ targetSdkVersion = 34
 To use the latest Stripe Android, you need to version these up. To use the latest features, follow these steps.
 
 1. Open `android/variables.gradle` and change sdkVersion version, if need.
-2. Add `stripeAndroidVersion`, `identityVersion` or `stripeterminalCoreVersion` and set required version. Release information is here: 
+2. Add `stripeAndroidVersion`, `identityVersion` or `stripeterminalCoreVersion` and set required version. Release information is here:
 - https://github.com/stripe/stripe-android/releases
 - https://github.com/stripe/stripe-terminal-android/releases
 
@@ -86,19 +86,19 @@ To use the latest Stripe Android, you need to version these up. To use the lates
     androidxEspressoCoreVersion = '3.5.1'
     cordovaAndroidVersion = '10.1.1'
 
-    // If you use @capacitor-community/stripe:
+    // If you use aeyoll/capacitor-stripe:
 +   stripeAndroidVersion = '20.39.+'
 
-    // If you use @capacitor-community/stripe-identity:
+    // If you use aeyoll/capacitor-stripe-identity:
 +   identityVersion = '20.39.+'
 
-    // If you use @capacitor-community/stripe-terminal:
+    // If you use aeyoll/capacitor-stripe-terminal:
 +   stripeterminalCoreVersion = '4.0.0'
 +   stripeterminalTapToPayVersion = '4.0.0'
   }
 ```
 
-Note: `@capacitor-community/stripe-terminal` does not work with the default sdkVersion, so these updates are mandatory. See [/packages/terminal](https://github.com/capacitor-community/stripe/tree/main/packages/terminal#readme) for more information.
+Note: `aeyoll/capacitor-stripe-terminal` does not work with the default sdkVersion, so these updates are mandatory. See [/packages/terminal](https://github.com/capacitor-community/stripe/tree/main/packages/terminal#readme) for more information.
 
 ### Error when running `cap update ios`
 
@@ -118,7 +118,7 @@ You will see this error often when using Capacitor iOS. The solution is simple: 
 % cd ios/App && pod install --repo-update
 ```
 
-or 
+or
 
 ```bash
 % cd ios/App && pod update
@@ -145,7 +145,7 @@ Made with [contributors-img](https://contrib.rocks).
 
 ### Screenshots
 
-#### @capacitor-community/stripe
+#### aeyoll/capacitor-stripe
 
 |              |                     Android                     |                     iOS                     |                     Web                     |
 |:------------:|:-----------------------------------------------:|:-------------------------------------------:|:-------------------------------------------:|
@@ -155,7 +155,7 @@ Made with [contributors-img](https://contrib.rocks).
 |  GooglePay   |  ![](demo/screenshots/google-pay-android.png)   |                Not supported                |  ![](demo/screenshots/google-pay-web.png)   |
 
 
-#### @capacitor-community/stripe-identity
+#### aeyoll/capacitor-stripe-identity
 
 |              |                     Android                     |                     iOS                     |                  Web                   |
 |:------------:|:-----------------------------------------------:|:-------------------------------------------:|:--------------------------------------:|

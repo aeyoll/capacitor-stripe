@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ITestItems } from '../shared/interfaces';
-import { PaymentFlowEventsEnum, Stripe } from '@capacitor-community/stripe';
+import { PaymentFlowEventsEnum, Stripe } from 'aeyoll/capacitor-stripe';
 import { PluginListenerHandle } from '@capacitor/core';
 import { HttpClient } from '@angular/common/http';
 import { HelperService } from '../shared/helper.service';

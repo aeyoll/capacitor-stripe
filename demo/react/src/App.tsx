@@ -35,9 +35,9 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 /**
  * If you use typescript@4.5, you can write:
- * import { useCapacitorStripe } from '@capacitor-community/stripe/react';
+ * import { useCapacitorStripe } from 'aeyoll/capacitor-stripe/react';
  */
-import { CapacitorStripeProvider } from '@capacitor-community/stripe/dist/esm/react/provider';
+import { CapacitorStripeProvider } from 'aeyoll/capacitor-stripe/dist/esm/react/provider';
 import React from 'react';
 
 setupIonicReact();

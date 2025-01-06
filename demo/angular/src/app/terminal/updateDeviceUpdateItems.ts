@@ -1,5 +1,5 @@
 import {ITestItems} from '../shared/interfaces';
-import {TerminalEventsEnum} from '@capacitor-community/stripe-terminal';
+import {TerminalEventsEnum} from 'aeyoll/capacitor-stripe-terminal';
 
 export const updateDeviceUpdateItems: ITestItems[] = [
   {

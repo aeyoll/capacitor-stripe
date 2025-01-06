@@ -3,7 +3,7 @@ import { ITestItems } from '../shared/interfaces';
 import {
   IdentityVerificationSheetEventsEnum,
   StripeIdentity,
-} from '@capacitor-community/stripe-identity';
+} from 'aeyoll/capacitor-stripe-identity';
 import { PluginListenerHandle } from '@capacitor/core';
 import { HttpClient } from '@angular/common/http';
 import { HelperService } from '../shared/helper.service';

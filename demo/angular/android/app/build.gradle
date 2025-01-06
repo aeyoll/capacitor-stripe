@@ -59,7 +59,7 @@ try {
 
 
 /*
- * used from @capacitor-community/stripe. If you remove this plugin, you can remove this code block.
+ * used from aeyoll/capacitor-stripe. If you remove this plugin, you can remove this code block.
  */
 buildscript {
   ext.kotlin_version = '2.0.+'

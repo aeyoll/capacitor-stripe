@@ -28,5 +28,5 @@ Using Function:
 - [ ] Payment Sheet / Payment Flow
 - [ ] Apple Pay
 - [ ] Google Pay
-- [ ] Identity (@capacitor-community/stripe-identity)
-- [ ] Terminal（@capacitor-community/stripe-terminal）
+- [ ] Identity (aeyoll/capacitor-stripe-identity)
+- [ ] Terminal（aeyoll/capacitor-stripe-terminal）

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Stripe } from '@capacitor-community/stripe';
-import { StripeIdentity } from '@capacitor-community/stripe-identity';
+import { Stripe } from 'aeyoll/capacitor-stripe';
+import { StripeIdentity } from 'aeyoll/capacitor-stripe-identity';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 
 @Component({

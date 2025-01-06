@@ -1,17 +1,17 @@
-# @capacitor-community/stripe
+# aeyoll/capacitor-stripe
 
 Stripe Identity SDK bindings for Capacitor Applications
 
 ## Install
 
 ```bash
-npm install @capacitor-community/stripe
+npm install aeyoll/capacitor-stripe
 npx cap sync
 ```
 
 ## How to use
 
-Learn at [the official @capacitor-community/stripe documentation](https://stripe.capacitorjs.jp/).
+Learn at [the official aeyoll/capacitor-stripe documentation](https://stripe.capacitorjs.jp/).
 
 日本語版をご利用の際は [ja.stripe.capacitorjs.jp](https://ja.stripe.capacitorjs.jp/) をご確認ください。
 
@@ -843,4 +843,4 @@ Billing details collection options.
 
 ## License
 
-@capacitor-community/stripe is [MIT licensed](./LICENSE).
+aeyoll/capacitor-stripe is [MIT licensed](./LICENSE).

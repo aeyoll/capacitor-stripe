@@ -6,7 +6,7 @@ import {
   PaymentFlowEventsEnum,
   PaymentSheetEventsEnum,
   Stripe,
-} from '@capacitor-community/stripe';
+} from 'aeyoll/capacitor-stripe';
 
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';

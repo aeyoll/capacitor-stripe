@@ -1,4 +1,4 @@
-import { PaymentSheetEventsEnum } from '@capacitor-community/stripe';
+import { PaymentSheetEventsEnum } from 'aeyoll/capacitor-stripe';
 import {
   IonContent,
   IonHeader,
@@ -15,9 +15,9 @@ import { checkmarkCircle, playOutline } from 'ionicons/icons';
 import { useCallback, useEffect, useState } from 'react';
 /**
  * If you use typescript@4.5, you can write:
- * import { useCapacitorStripe } from '@capacitor-community/stripe/react';
+ * import { useCapacitorStripe } from 'aeyoll/capacitor-stripe/react';
  */
-import { useCapacitorStripe } from '@capacitor-community/stripe/dist/esm/react/provider';
+import { useCapacitorStripe } from 'aeyoll/capacitor-stripe/dist/esm/react/provider';
 import { usePaymentSheet } from '../hooks/payment-sheet';
 import { TaskResult } from '../interfaces';
 import './Tab2.css';

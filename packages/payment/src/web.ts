@@ -117,7 +117,7 @@ export class StripeWeb extends WebPlugin implements StripePlugin {
       };
     }
 
-    this.notifyListeners(PaymentSheetEventsEnum.Completed, null);
+    this.notifyListeners(PaymentSheetEventsEnum.Completed, result.paymentMethod);
 
     return {
       paymentResult: PaymentSheetEventsEnum.Completed,

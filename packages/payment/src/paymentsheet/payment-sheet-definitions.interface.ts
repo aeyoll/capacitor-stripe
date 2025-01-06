@@ -22,7 +22,7 @@ export interface PaymentSheetDefinitions {
 
   addListener(
     eventName: PaymentSheetEventsEnum.Completed,
-    listenerFunc: () => void,
+    listenerFunc: (paymentMethod: any) => void,
   ): Promise<PluginListenerHandle>;
 
   addListener(
